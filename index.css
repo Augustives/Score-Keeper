@@ -134,5 +134,7 @@ table {
 	background-size: cover;
 }
 
-
+select, #pt {
+	display: inline-flex;
+}
 
