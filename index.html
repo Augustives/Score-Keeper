@@ -6,11 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="script" href="index.js">
 </head>
 <body>
+	<section class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-3 imagem">
+			</div>	
+		</div>
+		<div class="row justify-content-center m-2">
+			<div class="col-3 title text-center">
+				<p>Ping Pong Score Keeper</p>
+			</div>
+		</div>
+		<div class="row justify-content-center m-2">
+			<div class="col-3 fs-4">
+				<p class="text-center"><span id="score1">0</span> to <span id="score2">0</span></p>
+			</div>
+		</div>
+		<div class="row justify-content-center m-2">
+			<div class="col-1 my-auto">
+				<p class="text-center">Playing to</p>
+			</div>
+			<div class="col-2">
+				<select class="form-select form-select-sm">
+					<option selected>0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				</select>
+			</div>
+		</div>
+		<div class="row justify-content-center text-center m-2">
+			<div class="col-1">
+				<button id="pb1" type="button" class="btn btn-primary">+1 Player 1</button>
+			</div>
+			<div class="col-1">
+				<button id="pb2" type="button" class="btn btn-secondary">+1 Player 2</button>
+			</div>
+			<div class="col-1">
+				<button id="reset" type="button" class="btn btn-danger">Reset</button>
+			</div>
+		</div>
 
+	</section>
 
-
+	
 
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
